@@ -1,0 +1,41 @@
+
+.flexbox-container{
+   
+    display:flex;
+
+   /* flex-direction:column;
+    justify-content: center;
+    align-items: center;
+     height: 800px;
+     flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;  */
+
+}
+
+.flexbox-item{
+    
+    width:200px;
+    margin:1px;
+    
+
+}
+.flexbox-item-1{
+ min-width: 400px;
+ min-height:200px;
+ flex-shrink: 0;
+
+}
+.flexbox-item-1 img{
+    max-width: 350px;
+    max-height: 350px;
+   margin: 6%;
+   }
+.flexbox-item-2{
+    padding: 5%;
+    min-height:200px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    
+   }
+   
